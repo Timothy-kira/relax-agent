@@ -1,0 +1,9 @@
+{
+  "content_sha256": "a4092f1ef2fc507bfa0db7088fbd260bbdba9ee0c87e71b28a73ea4d70b0c174",
+  "evidence_scope": "Reviewed generic method; original private experiment not publicly reexecuted",
+  "privacy_findings": "Reviewed the complete generic method, applicability, counterexamples and unofficial notice. Public files omit private account or run coordinates, paths, logs, credentials and chat identifiers. Evidence scope is private Linux CPU production-path regression with provider I/O isolated; no real second-user, cross-platform or live public-read claim.",
+  "public_reviewer_alias": "independent-reviewer",
+  "public_skill_sha256": "693d0cd608157a57053a50a6b4695ace3935c3eaa110491d4163e80dbc9fb658",
+  "schema": "relax-topic-public-audit/v1",
+  "source_reference": "bounded-observer-refresh@1"
+}

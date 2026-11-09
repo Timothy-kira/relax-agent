@@ -1,0 +1,32 @@
+{
+  "content_sha256": "a4092f1ef2fc507bfa0db7088fbd260bbdba9ee0c87e71b28a73ea4d70b0c174",
+  "native_name": "relax-topic-bounded-observer-refresh",
+  "public_audit_sha256": "5e52e19472c677ff746f158362e70b6acee851c8bf51b831e210194325e6790c",
+  "reference": "bounded-observer-refresh@1",
+  "schema": "relax-topic-public/v1",
+  "skill_sha256": "693d0cd608157a57053a50a6b4695ace3935c3eaa110491d4163e80dbc9fb658",
+  "source_audit_sha256": "ec96e0f2e6a002cc32ed0c29acb8d906637b97a8b2eb4bee61ff0fa0bea0af6c",
+  "source_skill_sha256": "15e2405aedfd72687a2de911302146ccdaf63c630baa70fe2c67350c019b78d7",
+  "summary": {
+    "conditions": [
+      "Evidence covers Linux CPU production paths with isolated provider I/O and real blocked-child/competing-process tests.",
+      "Optional metadata reads can be deferred without changing the experiment being observed.",
+      "The observer has durable run identity and supports a separately owned short-lived child.",
+      "The storage layer can persist attempt identifiers and acquire locks with an explicit deadline."
+    ],
+    "environment": {},
+    "hardware": [
+      "cpu"
+    ],
+    "tags": [
+      "deadline",
+      "locking",
+      "metadata",
+      "observer",
+      "recovery",
+      "weak-network"
+    ],
+    "title": "Keep experiment observers responsive during optional network metadata refresh",
+    "topic": "infra-environment"
+  }
+}
