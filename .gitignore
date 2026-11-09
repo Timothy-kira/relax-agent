@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+credentials.json
+kaggle.json
+*.token
+*.key
+*.log
+.DS_Store
+Thumbs.db
