@@ -1,8 +1,12 @@
 # Relax Agent
 
+> **非官方项目声明：本项目由个人独立维护，是第三方 Agent 插件及 skill 共享项目，与小红书 Relax 官方项目及其团队无隶属关系；不是小红书 Relax 官方实现，也不代表官方立场。**
+>
+> **Unofficial project:** This independently maintained third-party agent and skill project is not an official implementation of Xiaohongshu Relax and is not affiliated with or endorsed by its team.
+
 Reusable skills for cloud experiments, evidence review and distributed collaboration across Kaggle, Colab, GitHub and Codex.
 
-This private repository starts the shared skill section. It contains no historical task logs, credentials, account configuration or experiment bundles. The existing plugin implementation remains in its existing repository while the new integrations are validated.
+This public repository starts the shared skill section. It contains no historical task logs, credentials, account configuration or experiment bundles. The existing plugin implementation remains in its existing repository while the new integrations are validated. Private team repositories remain separate sharing targets and are never made public by an index refresh.
 
 ## Skill section
 
